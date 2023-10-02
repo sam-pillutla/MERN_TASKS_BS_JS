@@ -1,0 +1,32 @@
+.box{
+    width:500px;
+    height:600px;
+    margin-top:40px;
+    margin-left:325px;
+    border-radius: 4px;
+}
+body {
+    background-image: url('back.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+}
+#uname,#mail,#pswd,#hob,#save{
+   width: 450px;
+   margin-left: 25px;
+   margin-bottom:20px;
+}
+label{
+    margin-left: 25px;
+}
+#save{
+    height:45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(#d66c6c,#f54646);
+    background-color: #f54646;
+}
+.d{
+    text-align: center;
+}
