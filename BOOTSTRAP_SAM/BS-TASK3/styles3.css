@@ -1,0 +1,55 @@
+.img1{
+    width:40px;
+    height:40px;
+}
+.navbar-brand{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.n1{
+    margin-left: 850px;
+}
+.n1 .nav-link:hover{
+    color:#c8de89;
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+}
+.text1{
+    color:rgb(209, 213, 216)
+}
+.card{
+    width:300px;
+}
+.c1{
+    margin-left:180px;
+}
+.card-header{
+    font-weight:500;
+}
+.btn1{
+    width:230px;
+}
+.button1{
+    background-color:#c8de89 ;
+}
+.inf{
+    text-align: left;
+}
+.l1{
+    color:rgb(203, 203, 203);
+    text-decoration: none;
+}
+.button2{
+    margin-top:10px;
+}
+.button:hover {
+    color: blue;
+}
+.copy{
+    color:#d5d5d518;
+}

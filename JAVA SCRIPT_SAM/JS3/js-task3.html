@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JAVA SCRIPT TASK3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles2.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    function mul()
+    {
+        let x= document.getElementById("num1").value;
+        let y= document.getElementById("num2").value;
+        if(x=="" || y==""){
+            document.getElementById("demo").innerHTML="Please Enter a number";
+        }
+        else{
+                document.getElementById("demo").innerHTML=x*y;
+        }
+    }
+    function div()
+    {
+        let x= document.getElementById("num1").value;
+        let y= document.getElementById("num2").value;
+        if(x=="" || y==""){
+            document.getElementById("demo").innerHTML="Please Enter a number";
+        }
+        else{
+                document.getElementById("demo").innerHTML=x/y;
+        }
+    }
+    function sub()
+    {
+        let x= document.getElementById("num1").value;
+        let y= document.getElementById("num2").value;
+        if(x=="" || y==""){
+            document.getElementById("demo").innerHTML="Please Enter a number";
+        }
+        else{
+                document.getElementById("demo").innerHTML=x-y;
+        }
+    }
+
+    </script>
+     <style>
+        .container{
+            height: 440px;
+            width:450px;
+            margin-top:150px;
+            padding-top: 50px; 
+            border-radius: 5px;  
+        }
+        .n{
+            font-size:x-large;
+            margin-left: 95px;
+        }
+        #num1,#num2{
+            width:350px;
+            margin-top: 15px;
+            height:45px;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color:#191969f6;
+            color: aliceblue;
+        }
+        .b{
+            padding-left: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-warning px-5">
+        <label for="num1" class="n">Enter number-1</label><br>
+        <input type="number" id="num1" placeholder="Enter number">
+        <label for="num2" class="n pt-4">Enter number-2</label><br>
+        <input type="number" id="num2" placeholder="Enter number">
+        <div class="b">
+            <button class="btn border-black mt-4" onclick="sub()">Sub</button>
+            <button class="btn border-black mt-4" onclick="mul()">Multiply</button>
+            <button class="btn border-black mt-4" onclick="div()">Divide</button>
+        </div>
+        <p id="demo" class="h4 text-center mt-4 text-success"></p>
+    </div>
+</body>
+</html>
